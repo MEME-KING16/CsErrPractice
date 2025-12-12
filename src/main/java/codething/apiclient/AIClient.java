@@ -28,7 +28,7 @@ public class AIClient {
 
             body.add("messages", messages);
             body.addProperty("temperature", 0.7);
-            body.addProperty("max_tokens", 1024);
+            body.addProperty("max_tokens", 8181);
             body.addProperty("stream", false);
 
             String json = gson.toJson(body);
